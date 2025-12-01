@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InnovifyXR Blog | Insights on AR, VR & Emerging Tech</title>
+<meta name="description" content="Stay updated with the latest insights, news, and trends in AR, VR, and immersive technology from the InnovifyXR blog." />
+
+    <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- AOS (Animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Swiper (Slider) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Model Viewer (3D Models) -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+<body class="blog-page">
+ 
+  <!-- HEADER -->
+<header>
+  <!-- Desktop Navigation -->
+  <div class="wrap nav">
+    <div class="logo" onclick="location.href='index.html'">
+      <img src="assets/images/logoxr.png" alt="InnovifyXR Logo" style="height:50px;">
+    </div>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+      <a href="about.html">About ▾</a>
+      <ul class="dropdown-menu">
+     <li><a href="team.html">Our Team</a></li>
+       </ul>
+      </li>
+          <li class="dropdown">
+      <a href="services.html">Services ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="ar.html">AR Development</a></li>
+        <li><a href="vr.html">VR Development</a></li>
+        <li><a href="game.html">Game Development</a></li>
+        <li><a href="blockchain.html">Blockchain & Web3</a></li>
+        <li><a href="app.html">Mobile App Development</a></li>
+        <li><a href="webar.html">WebAR Solutions</a></li>
+      </ul>
+    </li>
+        <li><a href="portfolio.html">Our Solution</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+      <!-- RIGHT: CTA BUTTON + MOBILE ICON -->
+    <div class="header-right">
+      <a class="cta-small" href="https://calendly.com/info-innovifyxr">Book a free Consultation</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="close-nav" id="closeNav" aria-label="Close menu">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+      <a href="about.html">About ▾</a>
+      <ul class="dropdown-menu">
+     <li><a href="team.html">Our Team</a></li>
+       </ul>
+      </li>
+          <li class="dropdown">
+      <a href="services.html">Services ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="ar.html">AR Development</a></li>
+        <li><a href="vr.html">VR Development</a></li>
+        <li><a href="game.html">Game Development</a></li>
+        <li><a href="blockchain.html">Blockchain & Web3</a></li>
+        <li><a href="app.html">Mobile App Development</a></li>
+        <li><a href="webar.html">WebAR Solutions</a></li>
+      </ul>
+    </li>
+      <li><a href="portfolio.html">Our Solution</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="cta-small" href="https://calendly.com/info-innovifyxr">book a free consultation</a></li>
+    </ul>
+  </div>
+</header>
+
+<!-- BLOG HERO SECTION -->
+<section class="blog-hero-section">
+  <div class="blog-hero-content">
+    <h1>Our Blog</h1>
+    <p>Insights, Updates & Innovations from InnovifyXR</p>
+    <a href="contact.html" class="btn-primary">Get a Demo</a>
+  </div>
+
+  <div class="blog-hero-slides">
+    <div class="slide active" style="background-image: url('assets/images/blog.jpg');"></div>
+    <div class="slide" style="background-image: url('assets/images/blog-bg1.webp');"></div>
+    <div class="slide" style="background-image: url('assets/images/blog-bg3.jpeg');"></div>
+  </div>
+
+  <div class="blog-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+
+  <!-- BLOG GRID -->
+  <section>
+    <div class="blog-grid">
+
+      <div class="blog-card">
+        <img src="assets/images/blog1.jpg" alt="The Future of AR in Education">
+        <div class="content">
+          <h3>The Future of AR in Education</h3>
+          <p>Discover how augmented reality is reshaping classrooms and enhancing student engagement worldwide.</p>
+          <a href="blog-ar-education.html">Read More →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="assets/images/blog6.jpg" alt="VR Training for Businesses">
+        <div class="content">
+          <h3>VR Training for Businesses</h3>
+          <p>Explore how virtual reality is revolutionizing corporate training with immersive, hands-on experiences.</p>
+          <a href="blog-vr-training.html">Read More →</a>
+        </div>
+      </div>
+
+      <div class="blog-card">
+        <img src="assets/images/blog3.avif" alt="Why 3D Modeling Matters">
+        <div class="content">
+          <h3>Why 3D Modeling Matters</h3>
+          <p>Learn why high-quality 3D models are the backbone of AR/VR development and digital design innovation.</p>
+          <a href="blog-3d-modeling.html">Read More →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+ 
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container wrap">
+      <div class="footer-logo">
+        <h2>InnovifyXR</h2>
+        <p>We are a creative tech company delivering immersive AR, VR, Game, App, WebAR,
+           and Web3 solutions that help businesses grow, engage, and innovate.</p>
+        <div class="social-icons" style="margin-top:12px">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ar.html">AR Development</a></li>
+          <li><a href="vr.html">VR Development</a></li>
+          <li><a href="game.html">Game Development</a></li>
+          <li><a href="blockchain.html">Blockchain & Web3</a></li>
+          <li><a href="app.html">Mobile App Development</a></li>
+          <li><a href="webAR.html">WebAR Development</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">GDPR</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 InnovifyXR. All Rights Reserved.</p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  </footer>
+  
+      <!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/Src/js/main.js" type="module"></script>
+<script type="module" src="assets/Src/js/three.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | AR, VR, Mobile & 3D Solutions | InnovifyXR</title>
+<meta name="description" content="Discover InnovifyXR’s services including AR development, VR solutions, 3D modeling, blockchain, mobile apps, and game development." />
+
+    <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- AOS (Animations) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Swiper (Slider) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Model Viewer (3D Models) -->
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+  <link rel="shortcut icon" href="assets/images/favicon.ico" />
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+  </head>
+<body class="service-page">
+ 
+    <!-- HEADER -->
+<header>
+  <!-- Desktop Navigation -->
+  <div class="wrap nav">
+    <div class="logo" onclick="location.href='index.html'">
+      <img src="assets/images/logoxr.png" alt="InnovifyXR Logo" style="height:50px;">
+    </div>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+      <a href="about.html">About ▾</a>
+      <ul class="dropdown-menu">
+     <li><a href="team.html">Our Team</a></li>
+       </ul>
+      </li>
+          <li class="dropdown">
+      <a href="services.html">Services ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="ar.html">AR Development</a></li>
+        <li><a href="vr.html">VR Development</a></li>
+        <li><a href="game.html">Game Development</a></li>
+        <li><a href="blockchain.html">Blockchain & Web3</a></li>
+        <li><a href="app.html">Mobile App Development</a></li>
+        <li><a href="webar.html">WebAR Solutions</a></li>
+      </ul>
+    </li>
+        <li><a href="portfolio.html">Our Solution</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+      <!-- RIGHT: CTA BUTTON + MOBILE ICON -->
+    <div class="header-right">
+      <a class="cta-small" href="https://calendly.com/info-innovifyxr">Book a free Consultation</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="close-nav" id="closeNav" aria-label="Close menu">&times;</button>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="dropdown">
+      <a href="about.html">About ▾</a>
+      <ul class="dropdown-menu">
+     <li><a href="team.html">Our Team</a></li>
+       </ul>
+      </li>
+          <li class="dropdown">
+      <a href="services.html">Services ▾</a>
+      <ul class="dropdown-menu">
+        <li><a href="ar.html">AR Development</a></li>
+        <li><a href="vr.html">VR Development</a></li>
+        <li><a href="game.html">Game Development</a></li>
+        <li><a href="blockchain.html">Blockchain & Web3</a></li>
+        <li><a href="app.html">Mobile App Development</a></li>
+        <li><a href="webar.html">WebAR Solutions</a></li>
+      </ul>
+    </li>
+      <li><a href="portfolio.html">Our Solution</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="cta-small" href="https://calendly.com/info-innovifyxr">book a free consultation</a></li>
+    </ul>
+  </div>
+</header>
+
+ <!-- HERO SECTION -->
+  <section class="hero-slider-section">
+    <div class="hero-slider-content">
+      <h1>Unlocking knowledge.<br>Ensuring innovation.</h1>
+      <p>
+        InnovifyXR provides AR/VR Training Platforms and immersive solutions 
+        that revolutionize digital experiences across industries.
+      </p>
+      <a href="contact.html" class="btn-primary">Get a Demo</a>
+    </div>
+    <div class="hero-slider-images">
+      <div class="hero-slide active" style="background-image: url('assets/images/services2.jpg');"></div>
+      <div class="hero-slide" style="background-image: url('assets/images/project1.jpg');"></div>
+      <div class="hero-slide" style="background-image: url('assets/images/service.jpg');"></div>
+    </div>
+  </section>
+
+
+<section class="vision-mission-section" data-aos="fade-up">
+  <div class="vision-mission-img" data-aos="fade-right">
+    <img src="assets/images/teams.webp" alt="Vision InnovifyXR">
+  </div>
+  <div class="vision-mission-text" data-aos="fade-left">
+    <h2>Vision and Mission</h2>
+    <p>
+      We guide enterprises’ growth and innovation journey through immersive AR/VR programs
+      and XR training platforms. Our mission is to empower businesses with cutting-edge
+      digital solutions and create the most advanced workforce development systems.
+    </p>
+  </div>
+</section>
+
+
+<!-- SERVICES SECTION -->
+<section id="services-section3" class="services-wrapper" data-aos="fade-up">
+
+  <h2 class="services-title" data-aos="fade-down" data-aos-delay="100">
+    Services We Offer
+  </h2>
+
+  <p class="services-intro" data-aos="fade-up" data-aos-delay="150">
+    Step into the future of interactive digital solutions. We design and develop 
+    immersive AR, VR, WebAR, games, and mobile applications—created to help 
+    businesses innovate, engage, and grow using next-generation technology.
+  </p>
+
+  <div class="services-grid">
+
+    <!-- CARD 1 -->
+    <div class="service-box" data-aos="fade-up">
+      <div class="service-icon">
+        <img src="assets/images/ar2.jpg" alt="AR Icon">
+      </div>
+      <h3>Augmented Reality (AR) Development</h3>
+      <p>Build immersive AR apps that transform real-world interaction.</p>
+      <a href="ar.html" class="service-btn">Learn More</a>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="100">
+      <div class="service-icon">
+        <img src="assets/images/vr.jpg" alt="VR Icon"> <!-- your image here -->
+      </div>
+      <h3>Virtual Reality (VR) Solutions</h3>
+      <p>Create powerful VR simulations and interactive virtual experiences.</p>
+      <a href="vr.html" class="service-btn">Learn More</a>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="150">
+      <div class="service-icon">
+        <img src="assets/images/game-bg.jpeg" alt="Game Icon"> <!-- your image here -->
+      </div>
+      <h3>Mobile Game Development</h3>
+      <p>Engaging mobile games built with creativity and innovation.</p>
+      <a href="game.html" class="service-btn">Learn More</a>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="200">
+      <div class="service-icon">
+        <img src="assets/images/blockchain.webp" alt="Web3 Icon"> <!-- your image here -->
+      </div>
+      <h3>Blockchain & Web3 Integration</h3>
+      <p>Secure, modern Web3 solutions combined with immersive experiences.</p>
+      <a href="blockchain.html" class="service-btn">Learn More</a>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="250">
+      <div class="service-icon">
+        <img src="assets/images/app.jpg" alt="App Icon"> <!-- your image here -->
+      </div>
+      <h3>Mobile App Development</h3>
+      <p>Fast, scalable, and user-friendly apps for Android & iOS.</p>
+      <a href="app.html" class="service-btn">Learn More</a>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="service-box" data-aos="fade-up" data-aos-delay="300">
+      <div class="service-icon">
+        <img src="assets/images/webar.jpg" alt="WebAR Icon"> <!-- your image here -->
+      </div>
+      <h3>WebAR Development</h3>
+      <p>Instant AR experiences that run directly inside the browser.</p>
+      <a href="webar.html" class="service-btn">Learn More</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- HOW WE WORK -->
+<section class="workflow-section" id="workflow" data-aos="fade-up">
+
+  <h2 class="workflow-title" data-aos="fade-down">How We Work</h2>
+  <p class="workflow-intro" data-aos="fade-up" data-aos-delay="100">
+    Our process is built to transform your ideas into powerful, high-performing digital experiences.
+    From discovery to deployment, every step ensures quality, precision, and innovation.
+  </p>
+
+  <div class="workflow-grid">
+
+    <!-- STEP BOX -->
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-search"></i></div>
+      <h3>Discovery</h3>
+      <p>Understanding your goals, challenges, and project vision.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-chart-line"></i></div>
+      <h3>Research</h3>
+      <p>Analyzing market, users, and technology solutions for your idea.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-brain"></i></div>
+      <h3>Concept Planning</h3>
+      <p>Structuring the roadmap, features, and system flow.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-palette"></i></div>
+      <h3>UI/UX Design</h3>
+      <p>Creating intuitive, appealing, and user-centered designs.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-layer-group"></i></div>
+      <h3>Prototype</h3>
+      <p>Interactive prototype to demonstrate the user experience.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-cubes"></i></div>
+      <h3>Content Production</h3>
+      <p>3D modeling, animation, sound, and assets creation.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-code"></i></div>
+      <h3>Development</h3>
+      <p>Building your AR, VR, app, or game with the latest technologies.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-plug"></i></div>
+      <h3>Integration</h3>
+      <p>Connecting APIs, databases, services, and backend functionality.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-check-circle"></i></div>
+      <h3>Testing & QA</h3>
+      <p>Quality check, bug fixing, performance optimization.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-user-check"></i></div>
+      <h3>Client Review</h3>
+      <p>Feedback, refinement, and updates based on your requirements.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-rocket"></i></div>
+      <h3>Deployment</h3>
+      <p>Launching your project on the required platforms.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+      <h3>Training</h3>
+      <p>Providing training, documentation, and onboarding.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-headset"></i></div>
+      <h3>Support</h3>
+      <p>Ongoing updates, maintenance, and performance monitoring.</p>
+    </div>
+
+    <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+      <h3>Scale & Upgrade</h3>
+      <p>Expanding features and scaling your experience as you grow.</p>
+    </div>
+
+      <div class="workflow-step">
+      <div class="workflow-icon"><i class="fas fa-lightbulb"></i></div>
+      <h3>Innovation Cycle</h3>
+      <p>Continuous improvement to keep your product modern and competitive.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Testimonials -->
+<section class="testimonials">
+  <h2 class="section-title">Happy Clients!</h2>
+  <p class="section-subtitle">Praise from our successful clients...</p>
+
+  <div class="testimonials-row">
+    <!-- Client 1 -->
+    <div class="testimonial-card" data-aos="fade-up">
+      <div class="testimonial-logo">
+        <img src="assets/images/yamaha.jpg" alt="Yamaha Logo">
+      </div>
+      <h3>Lee Somerhalder</h3>
+      <p class="role">Digital Marketing & Strategy Manager at Yamaha</p>
+      <p class="quote">
+        “Sketchfab has allowed us to be agile and efficient at delivering fun
+        digital experiences at scale that drive a significant lift in retail conversion.”
+      </p>
+    </div>
+
+    <!-- Client 2 -->
+    <div class="testimonial-card" data-aos="fade-up">
+      <div class="testimonial-logo">
+        <img src="assets/images/deacker.jpg" alt="Deckers Logo">
+      </div>
+      <h3>Mitch Harvey</h3>
+      <p class="role">3D Innovation Manager at Deckers</p>
+      <p class="quote">
+        “People were blown away the first time we presented our new designs using Sketchfab.”
+      </p>
+    </div>
+
+    <!-- Client 3 -->
+    <div class="testimonial-card" data-aos="fade-up">
+      <div class="testimonial-logo">
+        <img src="assets/images/nike-logo.jpg" alt="Nike Logo">
+      </div>
+      <h3>Sarah Johnson</h3>
+      <p class="role">Creative Director at Nike</p>
+      <p class="quote">
+        “Their platform made it possible to launch immersive experiences that captured our customers’ attention instantly.”
+      </p>
+    </div>
+  </div>
+</section>
+ 
+<section id="cta" class="cta-section section" 
+style="background-image: url('assets/images/cta btn.jpg'); background-size: cover; background-position: center;">
+  
+  <div class="cta-content">
+    <h1>Discover the possibilities of<br>for your XR business.</h1>
+    <p>Drop us a line, we'll be happy to chat about how we can drive your training outcomes.</p>
+    <a href="contact.html" class="cta-btn">GET STARTED</a>
+  </div>
+</section>
+
+ 
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container wrap">
+      <div class="footer-logo">
+        <h2>InnovifyXR</h2>
+        <p>We are a creative tech company delivering immersive AR, VR, Game, App, WebAR,
+           and Web3 solutions that help businesses grow, engage, and innovate.</p>
+        <div class="social-icons" style="margin-top:12px">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="team.html">Our Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ar.html">AR Development</a></li>
+          <li><a href="vr.html">VR Development</a></li>
+          <li><a href="game.html">Game Development</a></li>
+          <li><a href="blockchain.html">Blockchain & Web3</a></li>
+          <li><a href="app.html">Mobile App Development</a></li>
+          <li><a href="webAR.html">WebAR Development</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">GDPR</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 InnovifyXR. All Rights Reserved.</p>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  </footer>
+  
+    <!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="assets/Src/js/main.js" type="module"></script>
+<script type="module" src="assets/Src/js/three.js"></script>
+
+</body>
+</html>
